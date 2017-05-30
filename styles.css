@@ -1,0 +1,191 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-img {
+  width: 40px;
+}
+
+.nav-links {
+  list-style-type: none;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.about {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul li a {
+  text-decoration: underline;
+  color: #2B2F26;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: #F2F1E8;
+}
+
+.titles {
+  text-align: center;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 3em;
+  font-family: Merriweather;
+  padding-top: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-family: Merriweather;
+  font-weight: lighter;
+}
+
+.main-photos1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.photo1 {
+  flex: 1.3333;
+  margin: 0 5px;
+}
+
+.photo2 {
+  flex: 0.578;
+  margin: 0 5px;
+}
+
+.photo3 {
+  flex: 0.7502;
+  margin: 0 5px;
+}
+
+.main-photos2 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  top: -55px;
+}
+
+.photo4 {
+  margin: 0 5px;
+}
+
+.photo5 {
+  margin: 0 5px;
+}
+
+.photo6 {
+  margin: 0 5px;
+}
+
+.photo7 {
+  margin: 0 5px;
+}
+
+.photo1 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo2 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo3 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo4 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo5 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo6 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+.photo7 h3 {
+  position: relative;
+  top: -75px;
+  left: 0;
+}
+
+span {
+  color: #d1dec4;
+  background-color: #203524;
+  padding: 10px;
+  font-weight: normal;
+}
+
+footer {
+  background-color: #203524;
+  color: white;
+  padding: 30px;
+  position: relative;
+  top: -100px;
+}
+
+ul li a:hover {
+  color: #CD5D67;
+}
+
+ul li a:active {
+  color: #968772;
+}
